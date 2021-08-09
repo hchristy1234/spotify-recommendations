@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "compass/css3";
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.home {
+  background-image: url('./assets/musicBG.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.getMusic {
+  background-color: rgba(89, 87, 176, 0.78);
+  box-shadow: 5px 5px 8px rgba(248, 144, 144, 0.2);
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+}
+@keyframes pulse-black {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(126, 103, 138, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(126, 103, 138, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(126, 103, 138, 0);
+  }
+}
+.getMusic:hover{
+  background-color: #9F9AFF;
+}
+
+.mainText {
+  margin-top: 25vh;
+}
+
+.navitem:hover{
+  background-color: rgba(142, 112, 204, 0.53);
+}
+.navitem.active{
+  background-color: rgba(142, 112, 204, 0.53);
+}
+
+.musicbody {
+  background-color: #130637;
+}
+
+.auth {
+  margin-top: 5%;
+}
+.authorizestyle{
+  border: 1px solid white;
+}
+.musicBtn{
+  background-color: #6C63FF;
+}
+.musicBtn:hover{
+  background-color: #9F9AFF;
+}

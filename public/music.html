@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Spotify Recommendations</title>
+  </head>
+  <body class="musicbody">
+    <div class="music" id="music">
+      <div class="topnav text-center py-8">
+        <a class="navitem text-white px-4 py-2 rounded-2xl" href="./index.html">home</a>
+        <a class="navitem active text-white px-4 py-2 rounded-2xl" href="#music">get music</a>
+      </div>
+      <h1 class="text-4xl text-center text-white mt-10 font-semibold">i want to...</h1>
+      <div class="flex justify-between items-center mx-20">
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifyChill.svg" class="chill mx-auto">
+            <button class="chill musicBtn text-white mt-8 rounded-full px-8 py-2">chill</button>
+        </div>
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifyStudy.svg" class="chill mx-auto">
+            <button class="study musicBtn text-white mt-8 rounded-full px-8 py-2">study</button>
+        </div>
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifyDance.svg" class="chill mx-auto">
+            <button class="dance musicBtn text-white mt-8 rounded-full px-8 py-2">dance</button>
+        </div>
+      </div>
+      <div class="flex justify-between items-center mx-20">
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifySleep.svg" class="chill mx-auto">
+            <button class="sleep musicBtn text-white mt-8 rounded-full px-8 py-2">sleep</button>
+        </div>
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifyCry.svg" class="chill mx-auto">
+            <button class="cry musicBtn text-white mt-8 rounded-full px-8 py-2">cry</button>
+        </div>
+        <div class="flex-1 py-5 mt-14 text-center">
+            <img src="./assets/spotifySingAlong.svg" class="chill mx-auto">
+            <button class="singalong musicBtn text-white mt-8 rounded-full px-8 py-2">sing-along</button>
+        </div>
+      </div>
+      <div class="container mb-10 ml-auto mr-auto text-white">
+      </div>
+      <div class = "text-center auth">
+          <button class="authorize authorizestyle text-white px-4 py-2 rounded-xl hover:bg-white hover:text-black">pick a different genre</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
